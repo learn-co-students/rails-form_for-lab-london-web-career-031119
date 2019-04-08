@@ -1,0 +1,7 @@
+<p><% @school_classes.each do |sc|%>
+  <%= link_to sc.title, school_class_path(sc)%>
+<%end%>
+</p>
+<p>
+<%= link_to "Create A New School Class", new_school_class_path %>
+</p>

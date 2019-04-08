@@ -2,11 +2,11 @@ class SchoolClassesController < ApplicationController
 
   def show
     @school_class = get_params(:title, :room_number)
-    byebug
   end
 
   def index
     @school_classes = SchoolClass.all
+    byebug
   end
 
   def new
@@ -15,6 +15,7 @@ class SchoolClassesController < ApplicationController
 
   def create
     @school_class = SchoolClass.new
+    byebug
     @school_class.title = get_params(:title)
     @school_class.room_number = get_params(:room_number)
     @school_class.save
@@ -24,7 +25,7 @@ class SchoolClassesController < ApplicationController
   private
 
   def get_params(*args)
-    params.require(:school_class).permit(*args)
+    params.require(:school_class).permit(*args)[*args]
   end
 
 end

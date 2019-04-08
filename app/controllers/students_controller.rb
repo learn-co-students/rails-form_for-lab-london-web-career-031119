@@ -1,21 +1,21 @@
 class StudentsController < ApplicationController
   def show
-    @student = get_params(:title, :room_number)
+    @student = get_params(:first_name, :last_name)
     byebug
   end
 
   def index
-    @students = SchoolClass.all
+    @students = Student.all
   end
 
   def new
-    @student = SchoolClass.new
+    @student = Student.new
   end
 
   def create
-    @student = SchoolClass.new
-    @student.title = get_params(:title)
-    @student.room_number = get_params(:room_number)
+    @student = Student.new
+    @student.title = get_params(:first_name)
+    @student.room_number = get_params(:last_name)
     @student.save
     redirect_to school_class_path @student
   end

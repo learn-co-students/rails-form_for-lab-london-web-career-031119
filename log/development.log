@@ -627,3 +627,213 @@ app/controllers/school_classes_controller.rb:10:in `index'
   Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.6ms)
   Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (212.8ms)
+Started GET "/school_classes" for ::1 at 2019-04-07 23:08:30 +0100
+Processing by SchoolClassesController#index as HTML
+  Rendering school_classes/index.html.erb within layouts/application
+  Rendered school_classes/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/oli-gra/Dev/rails-form_for-lab-london-web-career-031119/app/views/school_classes/index.html.erb:1: syntax error, unexpected keyword_class, expecting '|'
+@school_classes.each do |class| 
+                              ^
+/Users/oli-gra/Dev/rails-form_for-lab-london-web-career-031119/app/views/school_classes/index.html.erb:2: syntax error, unexpected '.'
+@output_buffer.append=( class.title );@output_buffer.safe_ap
+                              ^
+/Users/oli-gra/Dev/rails-form_for-lab-london-web-career-031119/app/views/school_classes/index.html.erb:3: syntax error, unexpected '.'
+@output_buffer.append=( class.room_number );@output_buffer.s
+                              ^):
+  
+app/views/school_classes/index.html.erb:1: syntax error, unexpected keyword_class, expecting '|'
+app/views/school_classes/index.html.erb:2: syntax error, unexpected '.'
+app/views/school_classes/index.html.erb:3: syntax error, unexpected '.'
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (157.3ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (42.2ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (286.4ms)
+Started GET "/school_classes" for ::1 at 2019-04-07 23:09:55 +0100
+Processing by SchoolClassesController#index as HTML
+  Rendering school_classes/index.html.erb within layouts/application
+  Rendered school_classes/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/oli-gra/Dev/rails-form_for-lab-london-web-career-031119/app/views/school_classes/index.html.erb:1: syntax error, unexpected keyword_class, expecting '|'
+@school_classes.each do |class| 
+                              ^
+/Users/oli-gra/Dev/rails-form_for-lab-london-web-career-031119/app/views/school_classes/index.html.erb:2: syntax error, unexpected '.'
+@output_buffer.append=( class.title );@output_buffer.safe_ap
+                              ^
+/Users/oli-gra/Dev/rails-form_for-lab-london-web-career-031119/app/views/school_classes/index.html.erb:3: syntax error, unexpected '.'
+@output_buffer.append=( class.room_number );@output_buffer.s
+                              ^):
+  
+app/views/school_classes/index.html.erb:1: syntax error, unexpected keyword_class, expecting '|'
+app/views/school_classes/index.html.erb:2: syntax error, unexpected '.'
+app/views/school_classes/index.html.erb:3: syntax error, unexpected '.'
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (119.9ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (29.5ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (221.7ms)
+Started GET "/school_classes" for ::1 at 2019-04-07 23:09:59 +0100
+Processing by SchoolClassesController#index as HTML
+  Rendering school_classes/index.html.erb within layouts/application
+  Rendered school_classes/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/oli-gra/Dev/rails-form_for-lab-london-web-career-031119/app/views/school_classes/index.html.erb:1: syntax error, unexpected keyword_class, expecting '|'
+@school_classes.each do |class| 
+                              ^
+/Users/oli-gra/Dev/rails-form_for-lab-london-web-career-031119/app/views/school_classes/index.html.erb:2: syntax error, unexpected '.'
+@output_buffer.append=( class.title );@output_buffer.safe_ap
+                              ^
+/Users/oli-gra/Dev/rails-form_for-lab-london-web-career-031119/app/views/school_classes/index.html.erb:3: syntax error, unexpected '.'
+@output_buffer.append=( class.room_number );@output_buffer.s
+                              ^):
+  
+app/views/school_classes/index.html.erb:1: syntax error, unexpected keyword_class, expecting '|'
+app/views/school_classes/index.html.erb:2: syntax error, unexpected '.'
+app/views/school_classes/index.html.erb:3: syntax error, unexpected '.'
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (128.8ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (36.7ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (240.2ms)
+Started GET "/school_classes" for ::1 at 2019-04-07 23:10:39 +0100
+Processing by SchoolClassesController#index as HTML
+  [1m[36mSchoolClass Load (0.7ms)[0m  [1m[34mSELECT "school_classes".* FROM "school_classes"[0m
+Completed 500 Internal Server Error in 62841ms (ActiveRecord: 1.4ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/school_classes_controller.rb:10:in `index'
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (92.3ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (21.4ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (204.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "students" WHERE "students"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mSchoolClass Load (0.8ms)[0m  [1m[34mSELECT "school_classes".* FROM "school_classes"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "school_classes" WHERE "school_classes"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "school_classes" WHERE "school_classes"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/school_classes/new" for ::1 at 2019-04-08 09:11:39 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SchoolClassesController#new as HTML
+  Rendering school_classes/new.html.erb within layouts/application
+  Rendered school_classes/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 222ms (Views: 207.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/school_classes" for ::1 at 2019-04-08 09:12:13 +0100
+Processing by SchoolClassesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Qt2Qmwl9AloMu1UAEIwrT8K0NolFotcjCsswYrdWQt9NQZyAwX31cJFmGOQY7FpOqbXpen2OeVEzfOB2FymHvw==", "school_class"=>{"title"=>"Bio 101", "room_number"=>"1"}, "commit"=>"Create School class"}
+Unpermitted parameter: room_number
+Unpermitted parameter: title
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "{\"title\"=>\"Bio 101\"}"], ["created_at", "2019-04-08 08:12:13.740283"], ["updated_at", "2019-04-08 08:12:13.740283"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/school_classes/3
+Completed 302 Found in 4ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/school_classes/3" for ::1 at 2019-04-08 09:12:13 +0100
+Processing by SchoolClassesController#show as HTML
+  Parameters: {"id"=>"3"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: school_class):
+  
+app/controllers/school_classes_controller.rb:27:in `get_params'
+app/controllers/school_classes_controller.rb:4:in `show'
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.6ms)
+Started GET "/school_classes/new" for ::1 at 2019-04-08 09:13:30 +0100
+Processing by SchoolClassesController#new as HTML
+  Rendering school_classes/new.html.erb within layouts/application
+  Rendered school_classes/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 21ms (Views: 14.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/school_classes" for ::1 at 2019-04-08 09:13:38 +0100
+Processing by SchoolClassesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pSBuVKbn7jFjXvclSwfGZo8Y2XDeG52NHx+rTBV/icSqvGJPbucZG/6DusFDZ7dn5BkGg+Y3M/8mqHtYtQBMpA==", "school_class"=>{"title"=>"Bio 101", "room_number"=>"1"}, "commit"=>"Create School class"}
+Unpermitted parameter: room_number
+Unpermitted parameter: room_number
+Completed 500 Internal Server Error in 314522ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/school_classes_controller.rb:19:in `create'
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (86.8ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (24.8ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.0ms)
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (194.5ms)
+Started GET "/school_classes/new" for ::1 at 2019-04-08 09:19:00 +0100
+Processing by SchoolClassesController#new as HTML
+  Rendering school_classes/new.html.erb within layouts/application
+  Rendered school_classes/new.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 141ms (Views: 105.2ms | ActiveRecord: 5.0ms)
+
+
+Started POST "/school_classes" for ::1 at 2019-04-08 09:19:13 +0100
+Processing by SchoolClassesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5Wq1W1w2KucPtekqHmIXVj7Mq94iOA6LhW/DSyqT0vfq9rlAlDbdzZJopM4WAmZXVc10LRoUoPm82BNfiuwXlw==", "school_class"=>{"title"=>"Bio 101", "room_number"=>"1"}, "commit"=>"Create School class"}
+Unpermitted parameter: room_number
+Unpermitted parameter: title
+Completed 500 Internal Server Error in 149557ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+app/controllers/school_classes_controller.rb:19:in `create'
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (102.8ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (27.8ms)
+  Rendering /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.0ms)
+  Rendered /Users/oli-gra/.rvm/gems/ruby-2.4.5/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (217.5ms)

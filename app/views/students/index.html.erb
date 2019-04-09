@@ -1,0 +1,4 @@
+<h1>LIST OF ALL STUDENTS</h1>
+<% @students.each do |i| %>
+  <li><%= link_to i.first_name, i %></li>
+  <% end %>
